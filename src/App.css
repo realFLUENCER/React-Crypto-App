@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Play', sans-serif;
+  color: rgb(80, 240, 255);
+  margin-block-end: auto;
+
+}
+.coin-app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, #ffa7d9, #d38fc6, #a879b1, #7d639a, #544e81, #3b4876, #214169, #00395b, #003c56, #003e4e, #003f45, #003f3b);
+}
+.coin-search{
+  margin-bottom: 64px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-input{
+  padding-left: 16px;
+  width: 300px;
+  height: 50px;
+  border-radius: 40px;
+  border: none;
+  background-image: linear-gradient(to right, #544e81, #3a4674, #203e65, #003555, #00354c, #003442, #003237, #0f302e);
+color: #ffacac;
+}
+.coin-input::placeholder{
+  color: #fff4f4;
+}
